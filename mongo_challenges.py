@@ -13,8 +13,8 @@ years = []
 for i in cursor:
     years.append(i["year"])
 
-# plt.hist(years, bins = len(set(years)))
-# plt.show()
+plt.hist(years, bins = len(set(years)))
+plt.show()
 
 # challenge 2
 # finding most popular actor
