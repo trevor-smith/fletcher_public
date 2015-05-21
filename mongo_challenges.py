@@ -84,3 +84,12 @@ print eighties_count.most_common(3)
 nineties_count = Counter(metal_cred_1990)
 print "1990 most common: "
 print nineties_count.most_common(3)
+
+# challenge 5
+# finding the length of the metal cred section
+# add this new metric and call it metal score
+
+# dsbc.hmm.update({},
+#                     {$set : {"METAL_SCORE":1}},
+#                     {upsert:false,
+#                         multi:true})
